@@ -1,0 +1,66 @@
+import requests as res
+import json
+import time
+
+url="http://geomobi.semob.df.gov.br/geoserver/wfs?srsName=EPSG%3A4326&typename=semob%3Aparadas_stpc&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature&access_token=eb8041cb43a811eab8750050568ed515"
+
+paradas=res.get(url).text
+
+paradas_json=json.loads(paradas)
+i=1
+for n in paradas_json['features']:
+    print('----------------------------------------------------------')
+    print('')
+    print('Parada:')
+    time.sleep(0.5)
+    print('')
+    print(n['properties']['parada'])
+    print('----------------------------------------------------------')
+    print('')
+    print('Descrição:')
+    time.sleep(0.5)
+    print('')
+    print(n['properties']['descricao'])
+    print('----------------------------------------------------------')
+    print('')
+    print('Situação')
+    time.sleep(0.5)
+    print('')
+    print(n['properties']['situacao'])
+    print('----------------------------------------------------------')
+    print('')
+    print('Estrutura de Paragem')
+    time.sleep(0.5)
+    print('')
+    print(n['properties']['estrutura_de_paragem'])
+    print('----------------------------------------------------------')
+    print('')
+    print('Tipo:')
+    time.sleep(0.5)
+    print('')
+    print(n['properties']['tipo'])
+    print('----------------------------------------------------------')
+    print('')
+    print('Linhas:')
+    time.sleep(0.5)
+    print('')
+    print(n['properties']['linhas'])
+    print('----------------------------------------------------------')
+    print('')
+    print('Fonte:')
+    time.sleep(0.5)
+    print('')
+    print(n['properties']['fonte'])
+    print('----------------------------------------------------------')
+    print('')
+    print('Coordenadas:')
+    time.sleep(0.5)
+    print('')
+    print(n['geometry']['type'])
+    print(n['geometry']['coordinates'])
+    print('----------------------------------------------------------')
+    print('')
+    print(i)
+    i=i+1
+    time.sleep(5)
+

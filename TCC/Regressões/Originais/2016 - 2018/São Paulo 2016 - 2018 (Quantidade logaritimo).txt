@@ -1,0 +1,1115 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-41
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Telha sem laje de concreto (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+8371.52 * Quantidade ln - 121997.43
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.4105
+Mean absolute error                    703.6246
+Root mean squared error                732.0463
+Relative absolute error                208.7995 %
+Root relative squared error            192.4218 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-40,42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Telha com laje de concreto (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-4001.73 * Quantidade ln + 88169.74
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.9392
+Mean absolute error                   1704.4637
+Root mean squared error               1773.3127
+Relative absolute error                251.6381 %
+Root relative squared error            242.7582 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-39,41-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Somente laje de concreto (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+12242.42 * Quantidade ln - 184780.58
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.6702
+Mean absolute error                   1585.6505
+Root mean squared error               1649.7003
+Relative absolute error                254.0572 %
+Root relative squared error            218.4213 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-38,40-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Madeira apropriada para construção (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+13818.47 * Quantidade ln - 216730.4
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.3097
+Mean absolute error                    496.6055
+Root mean squared error                516.6651
+Relative absolute error                118.9415 %
+Root relative squared error            116.485  %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-37,39-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Cimento (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+9157.63 * Quantidade ln - 142355.61
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.1979
+Mean absolute error                    324.8917
+Root mean squared error                338.0151
+Relative absolute error                117.5748 %
+Root relative squared error            115.3239 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-36,38-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Cerâmica, lajota ou pedra (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-6750.64 * Quantidade ln + 146848.49
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.4837
+Mean absolute error                    193.1295
+Root mean squared error                200.9307
+Relative absolute error                 99.7338 %
+Root relative squared error             96.7998 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-35,37-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Alvenaria/Taipa sem revestimento (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+16419.45 * Quantidade ln - 258233.66
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5772
+Mean absolute error                    407.6169
+Root mean squared error                424.0819
+Relative absolute error                 88.9925 %
+Root relative squared error             85.655  %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-34,36-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Alvenaria/taipa com revestimento (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+1763.95 * Quantidade ln + 14880.01
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.746
+Mean absolute error                    193.7354
+Root mean squared error                201.561
+Relative absolute error                246.6323 %
+Root relative squared error            209.9823 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-33,35-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Madeira apropriada para construção (aparelhada) mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-794.6 * Quantidade ln + 12764.22
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.4647
+Mean absolute error                     72.0928
+Root mean squared error                 75.0049
+Relative absolute error                217.8491 %
+Root relative squared error            197.9261 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-32,34-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Queimado (na propriedade) mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+1485.52 * Quantidade ln - 23180.08
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5774
+Mean absolute error                     33.3262
+Root mean squared error                 34.6723
+Relative absolute error                 81.0146 %
+Root relative squared error             78.2812 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-31,33-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Outro destino (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+223.89 * Quantidade ln - 3539.41
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.5584
+Mean absolute error                     23.5059
+Root mean squared error                 24.4554
+Relative absolute error                235.2784 %
+Root relative squared error            207.3595 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-30,32-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Coletado em caçamba (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-3899.11 * Quantidade ln + 64001.53
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.8578
+Mean absolute error                    567.403
+Root mean squared error                590.3223
+Relative absolute error                247.5926 %
+Root relative squared error            223.3458 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-29,31-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Coletado diretamente (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+17588.35 * Quantidade ln - 236360.59
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.3708
+Mean absolute error                    516.3169
+Root mean squared error                537.1727
+Relative absolute error                101.1948 %
+Root relative squared error             98.9208 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-28,30-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Rede geral ou fossa ligada à rede (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+551.24 * Quantidade ln + 33255.55
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.7088
+Mean absolute error                     77.8714
+Root mean squared error                 81.0169
+Relative absolute error                253.7657 %
+Root relative squared error            222.1681 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-27,29-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Outra forma de esgotamento (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+7116.22 * Quantidade ln - 112303.63
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.8551
+Mean absolute error                     86.6958
+Root mean squared error                 90.1977
+Relative absolute error                 47.3312 %
+Root relative squared error             44.1188 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-26,28-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Fossa não ligada à rede (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+10522.86 * Quantidade ln - 164144.72
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9998
+Mean absolute error                      4.7202
+Root mean squared error                  4.9109
+Relative absolute error                  1.9223 %
+Root relative squared error              1.6512 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-25,27-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Rede geral ou fonte alternativa (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+16785.53 * Quantidade ln - 220908.39
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9956
+Mean absolute error                     35.2759
+Root mean squared error                 36.7009
+Relative absolute error                  9.0764 %
+Root relative squared error              7.7325 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-24,26-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Rede Geral (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+37349.98 * Quantidade ln - 502065.2
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9989
+Mean absolute error                     38.0126
+Root mean squared error                 39.5481
+Relative absolute error                  4.3099 %
+Root relative squared error              3.7461 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-23,25-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Próprio de algum morador: Já pago (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+6304.66 * Quantidade ln - 72749.19
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6902
+Mean absolute error                    117.1153
+Root mean squared error                121.846
+Relative absolute error                 68.9104 %
+Root relative squared error             65.8787 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-22,24-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Próprio de algum morador: Ainda pagando (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-14183.39 * Quantidade ln + 228921.73
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.2603
+Mean absolute error                    470.9967
+Root mean squared error                490.0219
+Relative absolute error                111.6508 %
+Root relative squared error            109.4483 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-21,23-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Outra condição (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-1857.54 * Quantidade ln + 29570.46
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.1496
+Mean absolute error                    112.984
+Root mean squared error                117.5478
+Relative absolute error                171.7838 %
+Root relative squared error            165.5024 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-20,22-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Cedido (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+17186.39 * Quantidade ln - 268346.92
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.812
+Mean absolute error                    240.8593
+Root mean squared error                250.5884
+Relative absolute error                 53.7197 %
+Root relative squared error             50.4897 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-19,21-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Alugado (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+9410.77 * Quantidade ln - 139494.2
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9901
+Mean absolute error                     29.7483
+Root mean squared error                 30.9499
+Relative absolute error                 13.5231 %
+Root relative squared error             11.6236 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-18,20-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Outro combustível (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+223.89 * Quantidade ln - 3539.41
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.5584
+Mean absolute error                     23.5059
+Root mean squared error                 24.4554
+Relative absolute error                235.2784 %
+Root relative squared error            207.3595 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-17,19-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Lenha ou carvão (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+34731.86 * Quantidade ln - 548710.95
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.391
+Mean absolute error                   1126.8929
+Root mean squared error               1172.4119
+Relative absolute error                110.0371 %
+Root relative squared error            107.421  %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-16,18-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Gás de botijão ou encanado (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+17624.86 * Quantidade ln - 234438.21
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9992
+Mean absolute error                     15.9904
+Root mean squared error                 16.6363
+Relative absolute error                  3.9027 %
+Root relative squared error              3.3395 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-15,17-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Energia elétrica (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+255714.15 * Quantidade ln - 4031293.22
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.3914
+Mean absolute error                   8292.1681
+Root mean squared error               8627.1167
+Relative absolute error                109.99   %
+Root relative squared error            107.3728 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-14,16-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Casa (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+25739.37 * Quantidade ln - 369859.59
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.3803
+Mean absolute error                   1661.6468
+Root mean squared error               1728.7663
+Relative absolute error                180.7759 %
+Root relative squared error            170.8249 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-13,15-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Casa de cômodos, cortiço ou cabeça de porco (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-344.04 * Quantidade ln + 5497.65
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.8153
+Mean absolute error                     66.3409
+Root mean squared error                 69.0206
+Relative absolute error                252.9101 %
+Root relative squared error            232.2025 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-12,14-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Apartamento (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-8534.41 * Quantidade ln + 142263.5
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.9372
+Mean absolute error                   1757.775
+Root mean squared error               1828.7774
+Relative absolute error                248.4663 %
+Root relative squared error            233.7519 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-11,13-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Rede geral de distribuição (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+21825.04 * Quantidade ln - 259307.3
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6955
+Mean absolute error                    401.3744
+Root mean squared error                417.5872
+Relative absolute error                 68.312  %
+Root relative squared error             65.2677 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-10,12-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Poço raso, freático ou cacimba (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+-904.84 * Quantidade ln + 14740.57
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.7097
+Mean absolute error                     17.5807
+Root mean squared error                 18.2909
+Relative absolute error                 72.5797 %
+Root relative squared error             68.6744 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-9,11-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Poço profundo ou artesiano (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+4117.42 * Quantidade ln - 64383.41
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.5692
+Mean absolute error                    440.2997
+Root mean squared error                458.0849
+Relative absolute error                237.4808 %
+Root relative squared error            208.4455 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7-8,10-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Outra forma de abastecimento (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+1210.7 * Quantidade ln - 19130.3
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6226
+Mean absolute error                     25.3135
+Root mean squared error                 26.336
+Relative absolute error                 76.3052 %
+Root relative squared error             73.4487 %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,7,9-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Fonte ou nascente (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+2065.8 * Quantidade ln - 32375.23
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.5382
+Mean absolute error                    162.0019
+Root mean squared error                168.5457
+Relative absolute error                204.485  %
+Root relative squared error            187.116  %
+Total Number of Instances                3
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLinearRegression
+Relation:     QueryResult-weka.filters.unsupervised.attribute.Remove-R1-5,8-42
+Instances:    3
+Attributes:   2
+              Quantidade ln
+              Canalizada (mil pessoas)
+Test mode:    3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear regression on Quantidade ln
+
+15893.57 * Quantidade ln - 206819.45
+
+Predicting 0 if attribute value is missing.
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9882
+Mean absolute error                     55.0341
+Root mean squared error                 57.2571
+Relative absolute error                 14.7735 %
+Root relative squared error             12.7297 %
+Total Number of Instances                3

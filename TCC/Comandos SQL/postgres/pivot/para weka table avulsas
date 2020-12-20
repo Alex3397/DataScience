@@ -1,0 +1,9 @@
+select * from pronto_para_regressao.vendas_varejo; 2012 a 2016
+select * from pronto_para_regressao.renda_media_trabalho_principal; 2000 a 2014
+select * from pronto_para_regressao.participacao_no_mercado; 2009 a 2014
+select * from pronto_para_regressao.linha_da_pobreza_pessoas_miseraveis_2000_2014;
+select * from pronto_para_regressao.grau_de_informalidade_i_ii_e_iii_2000_a_2014;
+select * from pronto_para_regressao.coeficiente_de_gini; 2000 a 2014
+select * from pronto_para_regressao.quantidade_beneficios_2000_a_2017;
+select * from pronto_para_regressao.arrecadacao_2000_a_2017;
+select * from pronto_para_regressao.valor_beneficios_2000_a_2017;
