@@ -9,17 +9,19 @@ Created on Mon Oct 12 20:24:40 2020
 # coding=utf-8
 import os
 import time
+import openpyxl
 import pandas as pd
 from sqlalchemy import create_engine
 
 engine = create_engine('postgresql://postgres:postgres@localhost:5432/natalice')
-pasta = '/home/alexandre/Documents/Hospitais/Natallice/modificado'
-excel_files_path = [os.path.join(pasta, nome) for nome in os.listdir(pasta)]
-
+pasta = '/home/alexandre/Dev/DataScience/Hospitais/Natallice/modificado/'
+excel_files_path = [os.path.join(pasta, nome) for nome in os.listdir(pasta)]    
 
 for excel_files in excel_files_path:
     print('')
     print('Excel files: ' + os.path.basename(excel_files))
+    os.rename(excel_files,excel_files.replace('.xlsx','.xls'))
+    print(excel_files.replace('.xlsx','.xls'))
     xls = pd.ExcelFile(excel_files)
 
     for excel_sheets in xls.sheet_names:
