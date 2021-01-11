@@ -159,7 +159,6 @@ for a in range(0,12):
                         codigo = cod[a]
                         if codigo == '5.2.2':
                             print(codigo)
-                            time.sleep(5)
                         contagem = con[a]
                         insert_into = insert_into_raw.format(ep=exportar,tn=tabela_nova,cod=codigo,con=contagem)
                         print(insert_into)
