@@ -29,7 +29,7 @@ for excel_files in excel_files_path:
         df = pd.read_excel(xls, excel_sheets)
         df.columns = df.columns.str.strip().str.lower().str.replace('(', '').str.replace(')', '').str.replace(' ', '')\
         .str.replace('especialidae', 'especialidade').str.replace('especialidades', 'especialidade')\
-        .str.replace('ciurgia', 'cirurgia').str.replace('cógido', 'código')
+        .str.replace('ciurgia', 'cirurgia').str.replace('cógido', 'código').str.replace('Código','código').str.replace('codigo','código')
         retirar = os.path.basename(excel_files).lower().replace('.xlsx','').replace('.xls','').replace('00-09','_00-09')\
             .replace('_ano','').replace('_especies','').replace('_2010','').replace('_2011','').replace('_2012','')\
             .replace('_2013','').replace('_divulgação','').replace('_2014','').replace('_2015','').replace('_2016','')\
